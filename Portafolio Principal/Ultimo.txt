@@ -1,0 +1,1703 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio de Desarrollo</title>
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Tu Logo">
+        </div>
+        <button class="menu-toggle">
+            <img src="img/MenuDesplegable.png" alt="Menú">  </button>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#hero" class="active">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="section">
+        <div class="hero-content">
+            <h1>¡Hola! Soy Abel Guzmán</h1>
+            <p>Desarrollador de Software con pasión por crear soluciones innovadoras.</p> <br> 
+            <div class="hero-buttons">
+                <a href="https://github.com/" class="button" target="_blank">Ver Mis Proyectos</a>
+                <a href="img/CV_Abel_Guzmán_Software.pdf" class="button" target="_blank" download="AbelGuzman_CV.pdf">Descargar CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+        <h2>Sobre Mí</h2> 
+        <div class="sobre-mi-contenedor">
+            <div class="sobre-mi-imagen">
+                <img src="img/Foto.jpg" alt="Tu Foto">
+            </div> <br> <br>
+            <div class="sobre-mi-texto">
+                <p>Soy un estudiante de la carrera "Tecnología en Desarrollo de Software" en el ITLA, con un fuerte interés en programación, desarrollo de software y soporte técnico. Mi enfoque es principalmente autodidacta, y poseo una notable capacidad para resolver problemas. Soy competente en una variedad de tecnologías y metodologías ágiles. Me caracterizo por mi compromiso con la mejora continua y mi habilidad para colaborar eficazmente en equipo.</p>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="section">
+        <h2>Tecnologías</h2>
+    
+        <div class="tech-category">
+            <h3>Frontend</h3>
+            <div class="carousel-container frontend-carousel">
+                <div class="carousel-slide frontend-slide">
+
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/css.png" alt="CSS3">
+                        <p>CSS3 - Estilos modernos y responsivos.</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/js.png" alt="JavaScript">
+                        <p>JavaScript - Lógica interactiva en el navegador.</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Bootstrap.jpg" alt="Bootstrap">
+                        <p>Bootstrap - Framework de CSS.</p>
+                    </div>
+                </div>
+                <button class="carousel-control prev-control" data-category="frontend"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-control next-control" data-category="frontend"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    
+        <div class="tech-category">
+            <h3>Backend</h3>
+            <div class="carousel-container backend-carousel">
+                <div class="carousel-slide backend-slide">
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Csharp.jpg" alt="C#">
+                        <p>C# - Lenguaje de programación de Microsoft.</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/net.jpg" alt=".NET">
+                        <p>.NET - Framework de desarrollo de Microsoft.</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/pl_sql.jpg" alt="PL/SQL">
+                        <p>PL/SQL - Extensión procedimental de SQL.</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/SqlServer.png" alt="SQL Server">
+                        <p>SQL Server - Sistema de gestión de bases de datos.</p>
+                    </div>
+    
+                </div>
+                <button class="carousel-control prev-control" data-category="backend"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-control next-control" data-category="backend"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    
+        <div class="tech-category">
+            <h3>Others</h3>
+            <div class="carousel-container others-carousel">
+                <div class="carousel-slide others-slide">
+                     <div class="tech-item">
+                        <img src="img/Tecnologias/VisualStudio.png" alt="Visual Studio">
+                        <p>Visual Studio - IDE de Microsoft.</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Oracle.webp" alt="Oracle">
+                        <p>Oracle - Sistema de gestión de bases de datos.</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Figma.jpg" alt="Figma">
+                        <p>Figma - Herramienta de diseño UI/UX.</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Notion.jpg" alt="Notion">
+                        <p>Notion - Herramienta de productividad.</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Office.png" alt="Office 365">
+                        <p>Office 365 - Suite de productividad de Microsoft.</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/html-5.png" alt="Office 365">
+                        <p>Office 365 - Suite de productividad de Microsoft.</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/html-5.png" alt="HTML5">
+                        <p>HTML5 - Estructura web semántica.</p>
+                    </div>
+                </div>
+                <button class="carousel-control prev-control" data-category="others"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-control next-control" data-category="others"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="section">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos-grid">
+            <div class="proyecto-card">
+                <img src="placeholder.jpg" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Breve descripción del proyecto y las tecnologías utilizadas.</p>
+                <a href="#" target="_blank">Ver Detalles</a>
+            </div>
+            <div class="proyecto-card">
+                <img src="placeholder.jpg" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Breve descripción del proyecto y las tecnologías utilizadas.</p>
+                <a href="#" target="_blank">Ver Detalles</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ubicacion" class="section">
+        <h2>Ubicación</h2>
+        <p>Puedes integrar un mapa de Google Maps aquí (requiere configuración adicional) o simplemente indicar tu ciudad o país.</p>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d668.9077777632868!2d-69.77503789358616!3d18.48756311555803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8728eb3ac345%3A0xaa23f0804a5a5e59!2sF6PG%2BX3M%2C%20Nueva%20Jerusalen%2C%20Santo%20Domingo%20Este!5e0!3m2!1ses-419!2sdo!4v1746232800853!5m2!1ses-419!2sdo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>¡No dudes en ponerte en contacto conmigo!</p>
+        <div class="contacto-contenedor">
+            <form>
+                <input type="text" placeholder="Tu Nombre">
+                <input type="email" placeholder="Tu Correo Electrónico">
+                <textarea placeholder="Tu Mensaje"></textarea>
+                <button type="submit" class="button">Enviar Mensaje</button>
+            </form>
+            <div class="redes-sociales">
+                <p>Sígueme en:</p>
+                <div class="botones-redes">
+                    <a href="#" target="_blank" class="boton-red"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank" class="boton-red"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" class="boton-red"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+CSS
+
+/* Reset básico */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #252422;
+    color: #fffcf2;
+    line-height: 1.6;
+    overflow-x: hidden;
+    /* padding-top: 60px;  Elimina o comenta esta línea */
+}
+
+header {
+    background-color: rgba(13, 27, 42, 0.9);
+    color: #e0e1dd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Aseguramos una altura mínima */
+    min-height: 60px; /* Ajusta este valor si tu header es más alto */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #eb5e28; /* Naranja vibrante para el logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 1.5rem;
+}
+
+nav a {
+    color: #ccc5b9; /* Grisáceo claro para los enlaces de navegación */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #fffcf2; /* Blanco hueso al pasar el mouse */
+}
+
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+    min-height: auto;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    margin-top: 60px; /* Añade esto */
+}
+
+.section.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* Hero Section con Imagen de Fondo y Filtro */
+#hero {
+    background-image: url('img/Fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px);
+    color: #fffcf2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-top: 60px; /* Añade esto */
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40, 39, 37, 0.7); /* Capa translúcida oscura */
+    z-index: 1;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 800px;
+    padding: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #eb5e28; /* Naranja vibrante para el título */
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #ccc5b9; /* Grisáceo claro para el párrafo */
+}
+
+.button {
+    display: inline-block;
+    background-color: #eb5e28; /* Color naranja vibrante para el botón */
+    color: #fffcf2; /* Texto claro para el botón */
+    padding: 0.8rem 1.5rem; /* Asegúrate de que ambos botones tengan el mismo padding */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    min-width: 150px; /* O ajusta este valor según el texto más largo */
+    text-align: center; /* Centra el texto dentro del botón */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto */
+}
+
+.button:hover {
+    background-color: #d94e1e; /* Un tono ligeramente más oscuro al pasar el mouse */
+    color: #fffcf2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra suave */
+}
+
+#sobre-mi {
+    background-color: #ccc5b9; /* Grisáceo claro para Sobre Mí */
+    color: #252422; /* Texto oscuro para Sobre Mí */
+}
+
+#tecnologias {
+    background-color: #403d39; /* Marrón oscuro para Tecnologías */
+    color: #fffcf2; /* Texto claro para Tecnologías */
+    padding-bottom: 4rem;
+    overflow: hidden;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    width: fit-content;
+    animation: scrollCarousel 30s linear infinite;
+}
+
+.tech-item {
+    min-width: 220px;
+    max-width: 300px;
+    margin: 0 2rem;
+    padding: 1rem;
+    background-color: #fffcf2; /* Blanco hueso para los items de tecnología */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: filter 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+
+.tech-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+    transition: opacity 0.3s ease;
+    border: none;
+}
+
+.tech-item p {
+    font-size: 1rem;
+    color: #252422; /* Texto oscuro para el nombre de la tecnología */
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    background-color: rgba(40, 39, 37, 0.8); /* Fondo oscuro para el texto hover */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    white-space: nowrap;
+    border: none;
+}
+
+.tech-item:hover {
+    filter: brightness(0.6);
+    transform: scale(1.05);
+}
+
+.tech-item:hover img {
+    opacity: 0.3;
+}
+
+.tech-item:hover p {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Animación de desplazamiento continuo */
+@keyframes scrollCarousel {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.carousel-container:hover .carousel-slide {
+    animation-play-state: paused;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #ccc5b9; /* Grisáceo claro para los controles */
+    cursor: pointer;
+    outline: none;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+    z-index: 10;
+}
+
+.carousel-control:hover {
+    color: #fffcf2;
+}
+
+.prev-control {
+    left: 1rem;
+}
+
+.next-control {
+    right: 1rem;
+}
+
+#proyectos {
+    background-color: #ccc5b9; /* Grisáceo claro para Proyectos */
+    color: #252422; /* Texto oscuro para Proyectos */
+}
+
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.proyecto-card {
+    background-color: #fffcf2; /* Blanco hueso para las tarjetas de proyecto */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.proyecto-card h3 {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    color: #252422;
+}
+
+.proyecto-card p {
+    padding: 0 1rem 1rem;
+    font-size: 0.9rem;
+    color: #403d39; /* Marrón oscuro para la descripción del proyecto */
+}
+
+.proyecto-card a {
+    display: block;
+    background-color: #403d39; /* Marrón oscuro para el enlace del proyecto */
+    color: #fffcf2; /* Texto claro para el enlace del proyecto */
+    text-align: center;
+    padding: 0.8rem 0;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.proyecto-card a:hover {
+    background-color: #eb5e28; /* Naranja vibrante al pasar el mouse en el enlace */
+    color: #fffcf2;
+}
+
+#ubicacion {
+    background-color: #403d39; /* Marrón oscuro para Ubicación */
+    color: #fffcf2; /* Texto claro para Ubicación */
+}
+
+.map-container {
+    margin-top: 2rem;
+}
+
+#contacto {
+    background-color: #252422; /* Fondo oscuro para Contacto */
+    color: #ccc5b9; /* Texto grisáceo claro para Contacto */
+}
+
+.contacto-contenedor {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #403d39; /* Marrón oscuro para el contenedor de contacto */
+    border-radius: 8px;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+#contacto form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#contacto input[type="text"],
+#contacto input[type="email"],
+#contacto textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc5b9; /* Borde grisáceo claro para los inputs */
+    border-radius: 4px;
+    background-color: #fffcf2; /* Fondo blanco hueso para los inputs */
+    color: #252422; /* Texto oscuro para los inputs */
+}
+
+#contacto textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#contacto button[type="submit"] {
+    background-color: #eb5e28; /* Naranja vibrante para el botón de submit */
+    color: #fffcf2; /* Texto claro para el botón de submit */
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contacto button[type="submit"]:hover {
+    background-color: #403d39; /* Marrón oscuro al pasar el mouse en el botón de submit */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.redes-sociales {
+    flex-basis: 200px;
+    text-align: center;
+}
+
+.botones-redes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.boton-red {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eb5e28; /* Naranja vibrante para los botones de redes */
+    color: #fffcf2;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    margin: 0.2rem;
+}
+
+.boton-red:hover {
+    background-color: #403d39; /* Marrón oscuro al pasar el mouse en los botones de redes */
+    color: #fffcf2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #403d39; /* Fondo oscuro para el footer */
+    color: #ccc5b9; /* Texto grisáceo claro para el footer */
+    text-align: center;
+    padding: 1rem 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+nav a.active {
+    color: #eb5e28; /* Naranja vibrante para el enlace activo */
+    font-weight: bold;
+}
+
+
+/**/
+
+header {
+    background-color: rgba(13, 27, 42, 0.9);
+    color: #e0e1dd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Asegura espacio entre los extremos */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ocupa todo el ancho dentro del header */
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
+}
+
+nav .logo {
+    margin-right: auto; /* Empuja la navegación a la derecha */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 1.5rem;
+}
+
+nav a {
+    color: #778da9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e0e1dd;
+}
+
+
+
+
+
+/*TECNOLOGIA*/
+#tecnologias {
+    background-color: #403d39; /* Marrón oscuro para el fondo de la sección */
+    color: #fffcf2; /* Blanco hueso para el texto principal de la sección */
+    padding-bottom: 4rem;
+    overflow: hidden;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    width: fit-content; /* El ancho se ajusta al contenido duplicado */
+    animation: scrollCarousel 30s linear infinite; /* Animación continua */
+}
+
+.tech-item {
+    min-width: 220px;
+    max-width: 300px;
+    margin: 0 2rem;
+    padding: 1rem;
+    background-color: #fffcf2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: filter 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    display: flex; /* Usamos flexbox para controlar el contenido */
+    flex-direction: column; /* Alineamos los elementos verticalmente */
+    justify-content: center; /* Centramos verticalmente el contenido */
+    align-items: center; /* Centramos horizontalmente el contenido */
+    position: relative; /* Necesario para posicionar absolutamente el <p> */
+    overflow: hidden;
+    border: none;
+}
+
+.tech-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+    transition: opacity 0.3s ease;
+    border: none;
+}
+
+.tech-item p {
+    font-size: 1rem;
+    color: #ff7d00; /* Asegúrate de que el color del texto sea un color sólido y visible */
+    opacity: 0; /* Inicialmente oculto */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40, 39, 37, 0.8); /* El último valor (0.8) es la opacidad del fondo */
+    padding: 1rem;
+    border-radius: 8px;
+    white-space: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.9);
+    box-sizing: border-box;
+}
+
+.tech-item:hover p {
+    opacity: 1; /* Asegúrate de que la opacidad del texto sea 1 (completamente visible) al hacer hover */
+    transform: scale(1);
+}
+
+.tech-item:hover img {
+    opacity: 0.3;
+}
+
+.tech-item:hover p {
+    opacity: 1;
+    transform: scale(1); /* Volvemos a la escala normal al hacer hover */
+}
+
+/* Animación de desplazamiento continuo con duplicación para loop */
+@keyframes scrollCarousel {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100%)); /* Desplaza el contenido duplicado */
+    }
+}
+
+.carousel-container:hover .carousel-slide {
+    animation-play-state: paused;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #ccc5b9; /* Grisáceo claro para el color de los controles */
+    cursor: pointer;
+    outline: none;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+    z-index: 10;
+}
+
+.carousel-control:hover {
+    color: #fffcf2; /* Blanco hueso para el color de los controles al hacer hover */
+}
+
+.prev-control {
+    left: 1rem;
+}
+
+.next-control {
+    right: 1rem;
+}
+
+
+
+
+
+
+
+
+/* Estilos para los títulos de las secciones */
+#sobre-mi h2,
+#tecnologias h2,
+#proyectos h2,
+#ubicacion h2,
+#contacto h2,
+#sobre-mi h3,
+#tecnologias h3,
+#proyectos h3,
+#ubicacion h3,
+#contacto h3 {
+    color: #eb5e28; /* Color naranja vibrante para los títulos de las secciones */
+    margin-bottom: 1rem; /* Espacio debajo del título (ajusta si es necesario) */
+    text-align: center; /* Centra el texto del título (opcional, puedes quitarlo si no lo deseas) */
+}
+
+/* Si tienes otros títulos relevantes en otras partes de tu sitio, puedes añadir selectores aquí */
+/* Por ejemplo, si los títulos de las tarjetas de proyecto son <h3> dentro de .proyecto-card: */
+.proyecto-card h3 {
+    color: #252422; /* Manteniendo el color original de los títulos de las tarjetas */
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Si los títulos de las habilidades son <h3> dentro de .habilidades-lista: */
+.habilidades-lista h3 {
+    color: #eb5e28; /* Aplicando el color naranja a los títulos de las habilidades */
+    margin-bottom: 0.5rem; /* Ajusta el margen si es necesario */
+}
+
+
+/*INICIO*/
+
+
+
+/*LOGO*/
+
+.logo img {
+    max-height: 40px; /* Ajusta la altura máxima según necesites */
+    width: auto; /* Mantiene la proporción de la imagen */
+}
+
+.logo img {
+    /* ... otros estilos ... */
+    filter: grayscale(100%) invert(100%); /* Intenta convertir a blanco */
+}
+
+
+
+/*SCROLL*/
+html {
+    scroll-behavior: smooth;
+}
+
+
+/**/
+.hero-content {
+    text-align: center;
+    max-width: 800px;
+    padding: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #eb5e28;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #ccc5b9;
+}
+
+.hero-buttons {
+    display: flex; /* Coloca los elementos en línea */
+    gap: 1rem; /* Espacio entre los botones */
+    justify-content: center; /* Centra los botones horizontalmente */
+}
+
+.button {
+    display: inline-block;
+    background-color: #eb5e28; /* Color naranja vibrante para el botón */
+    color: #fffcf2; /* Texto claro para el botón */
+    padding: 0.8rem 1.5rem; /* Asegúrate de que ambos botones tengan el mismo padding */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    min-width: 150px; /* O ajusta este valor según el texto más largo */
+    text-align: center; /* Centra el texto dentro del botón */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto */
+}
+
+.button:hover {
+    background-color: #d94e1e; /* Un tono ligeramente más oscuro al pasar el mouse */
+    color: #fffcf2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra suave */
+}
+
+/*SOBRE MI*/
+
+#sobre-mi .sobre-mi-contenedor {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    flex-direction: row; /* Asegura la disposición en fila */
+}
+
+#sobre-mi .sobre-mi-imagen {
+    flex-basis: 200px; /* Reducimos el ancho base */
+    max-width: 200px; /* Reducimos el ancho máximo */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#sobre-mi .sobre-mi-imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#sobre-mi .sobre-mi-texto {
+    flex: 1; /* El texto ocupa el espacio restante */
+    text-align: left;
+}
+
+
+/*---------------------------------------------------------*/
+/*CORRECCION HEADER                                        */
+/*---------------------------------------------------------*/
+
+body {
+    font-family: sans-serif;
+    background-color: #252422;
+    color: #fffcf2;
+    line-height: 1.6;
+    overflow-x: hidden;
+    /* padding-top: 60px; */ /* Eliminar esto */
+}
+
+:root {
+    --header-height: 60px; /* O la altura real de tu header */
+}
+
+header {
+    /* ... tus otros estilos de header ... */
+    min-height: var(--header-height);
+    height: var(--header-height); /* Añade también height para mayor seguridad */
+}
+
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+    min-height: auto;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    margin-top: var(--header-height); /* Usar la variable */
+}
+
+
+
+
+/*---------------------------------------------------------*/
+/*CORRECCION HEADER                                        */   
+/*---------------------------------------------------------*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    /* ... otros estilos ... */
+    min-width: 160px;  /* Ajusta según sea necesario */
+    /* ... otros estilos ... */
+}
+
+
+
+
+/*CARUSELES*/
+
+#tecnologias {
+    background-color: #403d39;
+    color: #fffcf2;
+    padding-bottom: 4rem;
+    overflow: hidden;
+    padding: 4rem 2rem;
+    text-align: center;
+    margin-top: var(--header-height);
+}
+
+#tecnologias h2 {
+    margin-bottom: 2rem;
+    color: #eb5e28;
+}
+
+.tech-category {
+    margin-bottom: 2rem;
+}
+
+.tech-category h3 {
+    margin-bottom: 1rem;
+    color: #eb5e28;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: fit-content; /* Ajuste importante */
+}
+
+.tech-item {
+    flex: 0 0 auto;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.tech-image {
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom: 0.5rem;
+}
+
+.tech-description {
+    font-size: 0.8rem;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #fffcf2;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.prev-control {
+    left: 1rem;
+}
+
+.next-control {
+    right: 1rem;
+}
+
+/* Animaciones específicas del carrusel */
+
+.frontend-slide {
+    animation: carousel-slide-left 15s infinite alternate linear;
+}
+
+.backend-slide {
+    animation: carousel-slide-right 15s infinite alternate linear;
+}
+
+.others-slide {
+    animation: carousel-slide-left 15s infinite alternate linear;
+}
+
+@keyframes carousel-slide-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-180px * 3)); /* Desplaza 3 items a la izquierda */
+    }
+}
+
+@keyframes carousel-slide-right {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(180px * 3));  /* Desplaza 3 items a la derecha */
+    }
+}
+
+
+
+
+
+/*RESPONSIVO*/
+
+
+/* Estilos generales (aplican a todos los tamaños de pantalla) */
+
+body {
+    font-family: sans-serif;
+    background-color: #252422;
+    color: #fffcf2;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgba(13, 27, 42, 0.9);
+    color: #e0e1dd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: var(--header-height);
+    height: var(--header-height);
+    box-sizing: border-box; /* Importante para la altura */
+}
+
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+    min-height: auto;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    margin-top: var(--header-height);
+    box-sizing: border-box; /* Importante para el padding */
+}
+
+/* ... (otros estilos generales) ... */
+
+
+
+/* Estilos para la sección "Tecnologías" */
+
+#tecnologias {
+    background-color: #403d39;
+    color: #fffcf2;
+    padding-bottom: 4rem;
+    overflow: hidden;
+    padding: 4rem 2rem;
+    text-align: center;
+    margin-top: var(--header-height);
+}
+
+#tecnologias h2 {
+    margin-bottom: 2rem;
+    color: #eb5e28;
+}
+
+.tech-category {
+    margin-bottom: 2rem;
+}
+
+.tech-category h3 {
+    margin-bottom: 1rem;
+    color: #eb5e28;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: fit-content;
+}
+
+.tech-item {
+    flex: 0 0 auto;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.tech-image {
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom: 0.5rem;
+}
+
+.tech-description {
+    font-size: 0.8rem;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #fffcf2;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.prev-control {
+    left: 1rem;
+}
+
+.next-control {
+    right: 1rem;
+}
+
+/* Animaciones específicas del carrusel */
+
+.frontend-slide {
+    animation: carousel-slide-left 6s infinite alternate linear;
+}
+
+.backend-slide {
+    animation: carousel-slide-right 6s infinite alternate linear;
+}
+
+.others-slide {
+    animation: carousel-slide-left 6s infinite alternate linear;
+}
+
+@keyframes carousel-slide-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-180px * 3));
+    }
+}
+
+@keyframes carousel-slide-right {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(180px * 3));
+    }
+}
+
+/* Media Queries */
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 600px) {
+
+    header {
+        background-color: rgba(13, 27, 42, 0.9);
+        color: #e0e1dd;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        padding: 0.5rem 1rem; /* Reducido el padding para móviles */
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Espacio entre logo y nav */
+        flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    }
+
+    header .logo {
+        font-size: 1.25rem; /* Reducido el tamaño del logo en móviles */
+        margin: 0; /* Aseguramos que no haya margen adicional */
+    }
+
+    header nav {
+        display: flex;
+        align-items: center;
+        width: 100%; /* Ocupa el ancho completo en móviles */
+        justify-content: flex-start; /* Alinea los items a la izquierda */
+        order: 1; /* Asegura que la navegación aparezca después del logo */
+    }
+
+    header nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0.5rem 0 0 0; /* Añadido margen superior */
+        padding: 0;
+        width: 100%; /* Ocupa el ancho completo de la barra de navegación */
+        justify-content: space-around; /* Distribuye los items uniformemente */
+    }
+    header nav ul li {
+        margin: 0; /* Eliminado el margen lateral */
+        padding: 0.5rem 0; /* Añadido padding vertical */
+        text-align: center; /* Centra el texto */
+        flex-grow: 1; /* Los items crecen para ocupar el espacio disponible */
+    }
+
+    header nav ul li a {
+        color: #778da9;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        display: block; /* Hace que el enlace ocupe todo el li */
+        width: 100%;
+    }
+
+    header nav ul li a:hover,
+    header nav ul li a.active {
+        color: #e0e1dd;
+        background-color: rgba(0, 0, 0, 0.2); /* Fondo sutil al hacer hover o activo */
+        border-radius: 5px; /* Bordes redondeados para el efecto de hover */
+    }
+
+    .section {
+        padding: 2rem 1rem;
+    }
+
+    #hero {
+        text-align: center;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    #sobre-mi .sobre-mi-contenedor {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #sobre-mi .sobre-mi-imagen {
+        max-width: 80%;
+        margin: 0 auto 1rem;
+    }
+
+    .carousel-container {
+        max-width: 100%; /* El carrusel ocupa todo el ancho en móviles */
+    }
+
+    .tech-item {
+        width: 140px; /* Ajusta el ancho de los elementos en móviles */
+    }
+
+    @keyframes carousel-slide-left {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-140px * 2)); /* Ajusta el desplazamiento en móviles */
+        }
+    }
+
+    @keyframes carousel-slide-right {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(140px * 2)); /* Ajusta el desplazamiento en móviles */
+        }
+    }
+
+    /* ... (Ajustes para otras secciones) ... */
+}
+
+/* Estilos para pantallas medianas (tabletas) - Opcional */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    /* Puedes añadir ajustes específicos para tabletas aquí si es necesario */
+}
+
+
+/*ULTIMO*/
+
+/* Estilos generales del header (sin cambios significativos) */
+header {
+    background-color: rgba(13, 27, 42, 0.9);
+    color: #e0e1dd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img {
+    max-height: 40px;
+    width: auto;
+    filter: grayscale(100%) invert(100%);
+}
+
+/* Estilos del menú hamburguesa */
+.menu-toggle {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: none; /* Oculto por defecto en pantallas grandes */
+}
+
+.menu-toggle img {
+    height: 25px; /* Ajusta el tamaño del icono */
+    width: auto;
+}
+
+/* Estilos de la navegación */
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu ul li {
+    margin-left: 1.5rem;
+}
+
+.nav-menu a {
+    color: #778da9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    color: #e0e1dd;
+}
+
+/* Media Query para Móviles */
+@media screen and (max-width: 600px) {
+    .menu-toggle {
+        display: block; /* Muestro el botón en móviles */
+    }
+
+    .nav-menu {
+        display: none; /* Oculto la navegación en móviles por defecto */
+        position: absolute;
+        top: 100%; /* La pongo debajo del header */
+        left: 0;
+        width: 100%;
+        background-color: rgba(13, 27, 42, 0.9);
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-menu ul li {
+        margin: 0.5rem 0;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.menu-toggle img {
+    height: 25px; /* Ajusta el tamaño del icono */
+    width: auto;
+}
+
+.nav-menu.show {
+    display: block;
+}
+
+
+
+JS
+
+
+// Efecto Parallax (ajustado para mayor control)
+document.addEventListener('scroll', function() {
+    const parallaxSections = document.querySelectorAll('.parallax');
+    parallaxSections.forEach(section => {
+        const speed = parseFloat(section.dataset.parallaxSpeed) || 0.3;
+        const offset = window.pageYOffset * speed;
+        section.style.backgroundPositionY = `${offset}px`;
+    });
+});
+
+// Efecto de aparición gradual al hacer scroll (Intersection Observer API)
+const sections = document.querySelectorAll('.section');
+const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+        }
+    });
+}, {
+    threshold: 0.15
+});
+sections.forEach(section => {
+    observer.observe(section);
+});
+
+// Efecto de "escala" en las tarjetas de proyecto al hacer hover
+const proyectoCards = document.querySelectorAll('.proyecto-card');
+proyectoCards.forEach(card => {
+    card.addEventListener('mouseenter', () => {
+        card.style.transform = 'scale(1.05)';
+        card.style.transition = 'transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out';
+        card.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.4)';
+    });
+    card.addEventListener('mouseleave', () => {
+        card.style.transform = 'scale(1)';
+        card.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.3)';
+    });
+});
+
+// Animación sutil del logo al hacer scroll
+const logo = document.querySelector('.logo');
+let lastScrollTop = 0;
+document.addEventListener('scroll', () => {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollTop > lastScrollTop) {
+        logo.style.transform = 'scale(0.95)';
+        logo.style.transition = 'transform 0.1s ease-in-out';
+    } else {
+        logo.style.transform = 'scale(1)';
+        logo.style.transition = 'transform 0.2s ease-in-out';
+    }
+    lastScrollTop = scrollTop;
+});
+
+// Efecto de "máquina de escribir" en el título del hero (opcional)
+const heroTitleElement = document.querySelector('.hero-content h1');
+const heroTitleText = heroTitleElement ? heroTitleElement.textContent : '';
+let heroTitleIndex = 0;
+function typeWriter() {
+    if (heroTitleIndex < heroTitleText.length && heroTitleElement) {
+        heroTitleElement.textContent = heroTitleText.substring(0, heroTitleIndex + 1);
+        heroTitleIndex++;
+        setTimeout(typeWriter, 100);
+    }
+}
+if (heroTitleElement) {
+    heroTitleElement.textContent = '';
+    setTimeout(typeWriter, 500);
+}
+
+// Animaciones de entrada para los elementos de la lista de habilidades
+const habilidadesListas = document.querySelectorAll('.habilidades-lista ul');
+habilidadesListas.forEach((lista, index) => {
+    const items = lista.querySelectorAll('li');
+    items.forEach((item, i) => {
+        item.style.opacity = 0;
+        item.style.transform = 'translateX(-20px)';
+        setTimeout(() => {
+            item.style.opacity = 1;
+            item.style.transform = 'translateX(0)';
+            item.style.transition = 'opacity 0.5s ease-out, transform 0.5s ease-out';
+        }, 300 + index * 150 + i * 100);
+    });
+});
+
+// Indicador de navegación activa
+const navLinks = document.querySelectorAll('nav a');
+function updateActiveNavLink() {
+    const currentScrollPos = window.pageYOffset;
+    navLinks.forEach(link => {
+        const targetId = link.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+        if (targetSection &&
+            targetSection.offsetTop <= currentScrollPos + window.innerHeight / 2 &&
+            targetSection.offsetTop + targetSection.offsetHeight > currentScrollPos + window.innerHeight / 2) {
+            link.classList.add('active');
+        } else {
+            link.classList.remove('active');
+        }
+    });
+}
+window.addEventListener('scroll', updateActiveNavLink);
+window.addEventListener('load', updateActiveNavLink);
+
+// --- SECCIÓN DEL CARRUSEL DE TECNOLOGÍAS (UNIFICADA Y ADAPTADA PARA CSS ANIMATION) ---
+const carouselContainer = document.querySelector('.carousel-container');
+const carouselSlide = document.querySelector('.carousel-slide');
+const techItems = document.querySelectorAll('.tech-item');
+
+if (carouselContainer && carouselSlide && techItems.length > 0) {
+    // Duplicar los primeros y últimos elementos para el loop infinito visual con CSS animation
+    let firstClone = techItems[0].cloneNode(true);
+    let lastClone = techItems[techItems.length - 1].cloneNode(true);
+
+    carouselSlide.appendChild(firstClone);
+    carouselSlide.insertBefore(lastClone, techItems[0]);
+
+    // Añadir event listeners para pausar y reanudar la animación CSS al hacer hover
+    carouselContainer.addEventListener('mouseenter', () => {
+        carouselSlide.style.animationPlayState = 'paused';
+    });
+
+    carouselContainer.addEventListener('mouseleave', () => {
+        carouselSlide.style.animationPlayState = 'running';
+    });
+
+    // (Opcional) Lógica para los botones de navegación manual (si los mantienes)
+    const prevButton = document.querySelector('.prev-control');
+    const nextButton = document.querySelector('.next-control');
+
+    // Si deseas controlar la animación CSS con los botones, puedes agregar la lógica aquí.
+    // Por ejemplo, podrías detener la animación y luego modificar la propiedad 'transform'
+    // del 'carouselSlide' directamente para mover los elementos manualmente.
+    // También podrías reiniciar la animación de alguna manera.
+}
+
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.nav-menu');
+
+menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+});
+
+
+const carrusel = document.querySelector('.carousel-container');
+    const slide = document.querySelector('.carousel-slide');
+    const elementos = document.querySelectorAll('.tech-item');
+    const botonAnterior = document.querySelector('.prev-control');
+    const botonSiguiente = document.querySelector('.next-control');
+    
+    let indiceActual = 0;
+    const anchoElemento = elementos[0].offsetWidth; // Ancho de un elemento
+    const totalElementos = elementos.length;
+    
+    function mostrarElemento(indice) {
+        if (indice < 0) {
+            indiceActual = totalElementos - 1;
+        } else if (indice >= totalElementos) {
+            indiceActual = 0;
+        } else {
+            indiceActual = indice;
+        }
+    
+        slide.style.transform = `translateX(${-indiceActual * anchoElemento}px)`;
+    }
+    
+    botonSiguiente.addEventListener('click', () => {
+        mostrarElemento(indiceActual + 1);
+    });
+    
+    botonAnterior.addEventListener('click', () => {
+        mostrarElemento(indiceActual - 1);
+    });
+    
+    mostrarElemento(0); // Mostrar el primer elemento al inicio

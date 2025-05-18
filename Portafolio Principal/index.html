@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio de Desarrollo</title>
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Tu Logo">
+        </div>
+        <button class="menu-toggle">
+            <img src="img/MenuDesplegable.png" alt="Menú">  </button>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#hero" class="active">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <!--<li><a href="#ubicacion">Ubicación</a></li>-->
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="section">
+        <div class="hero-content">
+            <h1 id="typing-effect"></h1> <!-- Texto vacío, se llenará con JS -->
+            <p>Desarrollador de Software con pasión por crear soluciones innovadoras.</p>
+            <br>
+            <div class="hero-buttons">
+                <a href="https://github.com/AbelGuzman1" class="button" target="_blank">Ver Mis Proyectos</a>
+                <a href="img/CV_Abel_Guzmán_Software - copia.pdf" class="button" target="_blank" download="AbelGuzman_CV.pdf">Descargar CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+        <h2>Sobre Mí</h2> 
+        <div class="sobre-mi-contenedor">
+            <div class="sobre-mi-imagen">
+                <img src="img/Foto.jpg" alt="Tu Foto">
+            </div> <br> <br>
+            <div class="sobre-mi-texto">
+                <p>Soy un estudiante de la carrera "Tecnología en Desarrollo de Software" en el ITLA, con un fuerte interés en programación, desarrollo de software y soporte técnico. Mi enfoque es principalmente autodidacta, y poseo una notable capacidad para resolver problemas. Soy competente en una variedad de tecnologías y metodologías ágiles. Me caracterizo por mi compromiso con la mejora continua y mi habilidad para colaborar eficazmente en equipo.</p>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="section">
+        <h2>Tecnologías</h2>
+    
+        <div class="tech-category">
+            <h3>Frontend</h3>
+            <div class="carousel-container frontend-carousel">
+                <div class="carousel-slide frontend-slide">
+
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/html-5.png" alt="HTML5">
+                        <p>HTML5</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/css.png" alt="CSS3">
+                        <p>CSS3</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/js.png" alt="JavaScript">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Bootstrap.jpg" alt="Bootstrap">
+                        <p>Bootstrap</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/MaterialUI.jpg" alt="MaterialUI">
+                        <p>MaterialUI</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/GoogleFont.jpg" alt="Google Font">
+                        <p>Google Font</p>
+                    </div>
+                </div>
+                <button class="carousel-control prev-control" data-category="frontend"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-control next-control" data-category="frontend"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div> <br>
+    
+        <div class="tech-category">
+            <h3>Backend</h3>
+            <div class="carousel-container backend-carousel">
+                <div class="carousel-slide backend-slide">
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Csharp.jpg" alt="C#">
+                        <p>C#</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/net.jpg" alt=".NET">
+                        <p>.NET</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/pl_sql.jpg" alt="PL/SQL">
+                        <p>PL/SQL</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/SqlServer.png" alt="SQL Server">
+                        <p>SQL Server</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Redis.jpg" alt="Redis">
+                        <p>Redis</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Docker.jpg" alt="Docker">
+                        <p>Docker</p>
+                    </div>
+    
+                </div>
+                <button class="carousel-control prev-control" data-category="backend"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-control next-control" data-category="backend"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div><br>
+    
+        <div class="tech-category">
+            <h3>Others</h3>
+            <div class="carousel-container others-carousel">
+                <div class="carousel-slide others-slide">
+                     <div class="tech-item">
+                        <img src="img/Tecnologias/VisualStudio.png" alt="Visual Studio">
+                        <p>Visual Studio</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Oracle.webp" alt="Oracle">
+                        <p>Oracle 21c</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Figma.jpg" alt="Figma">
+                        <p>Figma</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Notion.jpg" alt="Notion">
+                        <p>Notion</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Office.png" alt="Office 365">
+                        <p>Office 365</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/github.png" alt="Git Hub">
+                        <p>GitHub</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Outlook.jpg" alt="Outlook">
+                        <p>Outlook</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/PowerBi.jpg" alt="Office 365">
+                        <p>PowerBi</p>
+                    </div>
+                    <div class="tech-item">
+                        <img src="img/Tecnologias/Netlify.jpg" alt="Office 365">
+                        <p>Netlify</p>
+                    </div>
+                    
+
+                </div>
+                <button class="carousel-control prev-control" data-category="others"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-control next-control" data-category="others"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="section">
+        <h2>Mis Proyectos</h2> <br>
+        <div class="proyectos-grid">
+            
+            <div class="proyecto-card">
+                <img src="img/Trabajos/CEDOMEDI.png" alt="Proyecto 1">
+                <h3>CEDOMEDI</h3>
+                <p>Centro Médico de Estudios Generales.</p>
+                <a href="https://centro-cedomedi.netlify.app/" target="_blank">Ver Proyecto</a>
+            </div>
+            <div class="proyecto-card">
+                <img src="img/Trabajos/AshlyCakes.png" alt="Proyecto 2">
+                <h3>Ashly Cakes</h3>
+                <p>Ventas de postres.</p>
+                <a href="https://ventapostres.netlify.app/" target="_blank">Ver Proyecto</a>
+            </div>
+            <div class="proyecto-card">
+                <img src="img/Trabajos/CinemaRD.png" alt="Proyecto 3">
+                <h3>Cinema RD</h3>
+                <p>Web Películas.</p>
+                <a href="https://cinemard.netlify.app/" target="_blank">Ver Proyecto</a>
+            </div>
+            <div class="proyecto-card">
+                <img src="img/Trabajos/Agenda.png" alt="Proyecto 4">
+                <h3>Agenda</h3>
+                <p>Agenda básica con C# y SqlServer.</p>
+                <a href="https://github.com/AbelGuzman1/Agenda" target="_blank">Ver Proyecto</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- UBICACION
+    <section id="ubicacion" class="section">
+        <h2>Ubicación</h2>
+        <p>Calle Nazaret, No. 10, Nueva Jerusalén, Santo Domingo Este, RD.</p>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d668.9077777632868!2d-69.77503789358616!3d18.48756311555803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf8728eb3ac345%3A0xaa23f0804a5a5e59!2sF6PG%2BX3M%2C%20Nueva%20Jerusalen%2C%20Santo%20Domingo%20Este!5e0!3m2!1ses-419!2sdo!4v1746232800853!5m2!1ses-419!2sdo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    -->
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>¡No dudes en ponerte en contacto conmigo!</p>
+        <div class="contacto-contenedor">
+            <form action="https://formspree.io/f/mjkwabpn" method="POST" target="_blank">
+                <input type="text" name="nombre" placeholder="Tu Nombre"> 
+                <input type="email" name="email" placeholder="Tu Correo Electrónico">
+                <textarea name="mensaje" placeholder="Tu Mensaje"></textarea>
+                <button type="submit" class="button">Enviar Mensaje</button>
+            </form>
+            <div class="redes-sociales">
+                <p>Sígueme en:</p>
+                <div class="botones-redes">
+                    <a href="https://www.linkedin.com/in/abeleliasguzman/" target="_blank" class="boton-red"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/AbelGuzman1" target="_blank" class="boton-red"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" class="boton-red"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Abel Guzmán. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
